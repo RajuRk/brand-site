@@ -92,6 +92,16 @@ ul{
   justify-content: flex-start;
 }
 
+.logoSec,
+.footer-logo{
+  max-width: 250px;
+}
+
+.logoSec img,
+.footer-logo img{
+  width: 250px;
+}
+
 .subHeader p{
   color: #fff;
   font-weight: 600;
@@ -175,7 +185,7 @@ ul{
 }
 
 .aboutContent p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -519,6 +529,15 @@ ul{
   color: #ee2e28!important;
 }
 
+#contact{
+  margin: 35px 0;
+}
+
+.contactSec{
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding: 30px; 
+}
+
 .contactNumber{
   display: flex;
   align-items: center;
@@ -538,6 +557,13 @@ input.form-control{
 
 textarea.form-control{
   border: 1px solid #1e292f!important;
+}
+
+.error-msg{
+  color: #e63a34;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 4px 0;
 }
 
 #footer{
@@ -599,4 +625,5 @@ textarea.form-control{
 .copyrights{
   color: #fff;
   text-align: center;
+  font-size: 14px;
 }

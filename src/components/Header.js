@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import LogoImg from '../img/logo.png';
+import  LogoImg from '../img/rankuhigher-logo.png';
 import {FaEnvelope,FaPhoneAlt} from "react-icons/fa";
 
 const Header = () => {
