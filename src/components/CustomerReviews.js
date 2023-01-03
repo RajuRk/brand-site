@@ -52,12 +52,22 @@ const CustomerReviews = () => {
   ];
 
   var settings = {
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive:[
+      {
+          breakpoint: 600,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+          }
+      }
+    ]
   };
 
   return (

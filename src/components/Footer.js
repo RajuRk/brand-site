@@ -14,7 +14,7 @@ const Footer = () => {
     <section id="footer">
        <Container>
         <Row className='footerRow'>
-         <Col md={4} lg={4}>
+         <Col md={4} lg={4} className="mb-4">
             <div className="footer-brand">
                <div className='footer-title'>
                   <h4>About Us</h4>
@@ -33,7 +33,7 @@ const Footer = () => {
                </ul>
             </div>
          </Col>
-         <Col md={3} lg={3}>
+         <Col md={3} lg={3} className="mb-4">
             <div className='footer-quicks'>
                 <div className='footer-title'>
                   <h4>Quick Links</h4>
@@ -52,13 +52,13 @@ const Footer = () => {
                 </div>
             </div>
          </Col>
-         <Col md={5} lg={5}>
+         <Col md={5} lg={5} className="mb-4">
            <div className='footer-location'>
               <div className='footer-title'>
                 <h4>Location</h4>
               </div>
               <div className='footer-map'>
-              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15669.559758056352!2d76.97489721265869!3d10.933888627434179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89ce6256b5a064ad!2sRank%20You%20Higher!5e0!3m2!1sen!2sin!4v1672390092455!5m2!1sen!2sin" title="Rankuhigher" style={{width: "100%", height: "250px", border: "0", borderRadius:"20px"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15669.559758056352!2d76.97489721265869!3d10.933888627434179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89ce6256b5a064ad!2sRank%20You%20Higher!5e0!3m2!1sen!2sin!4v1672390092455!5m2!1sen!2sin" title="Rankuhigher" style={{width: "100%", height: "250px", border: "0", borderRadius:"20px"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
            </div>
          </Col> 

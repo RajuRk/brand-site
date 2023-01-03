@@ -10,13 +10,13 @@ const About = () => {
   return (
     <section id="about">
       <div className='aboutBoxes'>
-        <div className='box' style={{backgroundColor: "#7bb242"}}>
+        <div className='box' style={{backgroundColor: "#7ab53c"}}>
            <div className="imfWithContent">
               <img src={MoneyBack} alt=""/>
               <p>100% Result Oriented Services</p>
            </div>  
         </div>
-        <div className='box' style={{backgroundColor: "#f48a1f"}}>
+        <div className='box' style={{backgroundColor: "#ff7a0e"}}>
            <div className="imfWithContent">
               <img src={Satisfaction} alt=""/>
               <p>100% Creative Digital Solutions</p>
@@ -28,7 +28,7 @@ const About = () => {
               <p>100% Customized Designs</p>
            </div>  
         </div>
-        <div className='box' style={{backgroundColor: "#2f83d1"}}>
+        <div className='box' style={{backgroundColor: "#0084db"}}>
            <div className="imfWithContent">
               <img src={CustomerSupport} alt=""/>
               <p>24/7 Customer Support</p>
