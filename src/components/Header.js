@@ -1,10 +1,11 @@
 import React from 'react'
 import {Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import  LogoImg from '../img/rankuhigher-logo.png';
 import {FaEnvelope,FaPhoneAlt} from "react-icons/fa";
 
 const Header = () => {
+
   return (
     <section id="header">
       <header>
@@ -23,12 +24,12 @@ const Header = () => {
                 </div>
                 <div className='navMenu'>
                   <ul>
-                    <li><Link>About Us</Link></li>
-                    <li><Link>Services</Link></li>
-                    <li><Link>Portfolio</Link></li>
-                    <li><Link>Testimonials</Link></li>
-                    <li><Link>Client Success Story</Link></li>
-                    <li><Link>Contact Us</Link></li>
+                    <li><Link to="about" activeClass='active' spy="true" smooth={true}>About Us</Link></li>
+                    <li><Link to="features" activeClass='active' spy="true" smooth={true}>Services</Link></li>
+                    <li><Link to="portfolio" activeClass='active' spy="true" smooth={true}>Portfolio</Link></li>
+                    <li><Link to="customerReview" activeClass='active' spy="true" smooth={true}>Testimonials</Link></li>
+                    <li><Link to="clientStory" activeClass='active' spy="true" smooth={true}>Client Success Story</Link></li>
+                    <li><Link to="contact" activeClass='active' spy="true" smooth={true}>Contact Us</Link></li>
                   </ul>
                 </div>
               </div>  

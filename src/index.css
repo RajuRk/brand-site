@@ -71,11 +71,12 @@ header,.mobile-Section{
 }
 
 .navMenu ul li a{
-  color: #fff;
+  color: #fff!important;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.5px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navTop{
