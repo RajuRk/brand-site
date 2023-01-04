@@ -146,7 +146,7 @@ const Contact = () => {
                    </div>
                    <div className='contactNumberDesc'>
                       <p className='contactHead'><strong>Contact Number</strong></p>
-                      <p className='contactcont'>+1 (978) 791-3121</p>
+                      <p className='contactcont'>+91 (958) 538-0011</p>
                    </div>
                 </div>
                 <div className="contactNumber">
@@ -155,7 +155,7 @@ const Contact = () => {
                    </div>
                    <div className='contactNumberDesc'>
                       <p className='contactHead'><strong>Email Address</strong></p>
-                      <p className='contactcont'>info@brandsdesign.com</p>
+                      <p className='contactcont'> response@rankuhigher.in</p>
                    </div>
                 </div>
                 <div className="contactNumber">
@@ -163,8 +163,8 @@ const Contact = () => {
                       <img src={OfficeAddress} alt=""/>
                    </div>
                    <div className='contactNumberDesc'>
-                      <p className='contactHead'><strong>USA Address</strong></p>
-                      <p className='contactcont'>10685-B Hazelhurst Dr. # 21014, Houston, TX 77043, USA</p>
+                      <p className='contactHead'><strong>Address</strong></p>
+                      <p className='contactcont'>Rathinam Techzone Campus, Pollachi Main Rd, Eachanari, Tamil Nadu 641021</p>
                    </div>
                 </div>
              </div> 

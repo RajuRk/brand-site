@@ -18,16 +18,16 @@ const Header = () => {
             <Col md={9} lg={9} className="navtop">
               <div className='navSec'>
                 <div className="navTop">
-                   <p><FaEnvelope className='fa-icons'/> xyz@rankuhigher.in</p>
-                   <p><FaPhoneAlt className='fa-icons'/> +91 (999)-999-9999</p>
+                   <p><FaEnvelope className='fa-icons'/> response@rankuhigher.in</p>
+                   <p><FaPhoneAlt className='fa-icons'/> +91 95853 80011</p>
                 </div>
                 <div className='navMenu'>
                   <ul>
                     <li><Link>About Us</Link></li>
                     <li><Link>Services</Link></li>
                     <li><Link>Portfolio</Link></li>
-                    <li><Link>Pricing</Link></li>
-                    <li><Link>Blog</Link></li>
+                    <li><Link>Testimonials</Link></li>
+                    <li><Link>Client Success Story</Link></li>
                     <li><Link>Contact Us</Link></li>
                   </ul>
                 </div>
@@ -50,8 +50,8 @@ const Header = () => {
                 <Nav.Link href="#home">About Us</Nav.Link>
                 <Nav.Link href="#link">Services</Nav.Link>
                 <Nav.Link href="#link">Portfolio</Nav.Link>
-                <Nav.Link href="#link">Pricing</Nav.Link>
-                <Nav.Link href="#link">Blog</Nav.Link>
+                <Nav.Link href="#link">Testimonials</Nav.Link>
+                <Nav.Link href="#link">Client Success Story</Nav.Link>
                 <Nav.Link href="#link">Contact Us</Nav.Link>
               </Nav>
             </Navbar.Collapse>
