@@ -24,8 +24,8 @@ const ClienStory = () => {
         "id": 2,
         "img": client2,
         "title": "Fluid Pumps",
-        "desc": "Jonathan Gillmore, an aspired entrepreneur, approached us for the branding of his brewing company. He wanted a strong image to be designed for his brand, the request of which was fulfilled by Brands Design. Operating in an industry where a lot of competitors were fighting against one another, Jonathan planned on breaking through the clutter while giving its company a personality that could separate it from its competitors.",
-        "feedback": "Excellent work. I am literally in love with the designs provided to me by Brands Design. I will continue to hire them over and over again!",
+        "desc": "FLUID PUMPS AND SYSTEMS is the Authorized Distributor of Grundfos Pumps in various districts of Tamil Nadu. We are a company who cater end to end pump and pumping solutions. We have been a vital player in the market for the past 10 years and counting. We started ourselves as a small business entity in 2012, with the vision of providing unparalleled service to our beloved customers at the most economical price point. We have always been transparent in the communication to the customers, with no hidden talks behind the curtains, which has eased the path for the customers to approach us. We have had cordial relationships with the customer because of our committed and trustworthy services and policies.",
+        "feedback": "Our business is to help your business succeed. Get in hands with us for all digital solutions.",
         "clientname": "Keenya Kelly",
         "clientPosition": "Business Calibration Consultant"
     },
