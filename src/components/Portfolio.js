@@ -27,104 +27,87 @@ const Portfolio = () => {
         {
             "id": 1,
             "img": sliderImg1,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Designing every bit",
         },
         {
             "id": 2,
             "img": sliderImg2,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Design naturally",
         },
         {
             "id": 3,
             "img": sliderImg3,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Reaching you",
         },
         {
             "id": 4,
             "img": sliderImg4,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Branding distinctly",
         },
         {
             "id": 5,
             "img": sliderImg5,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Brand marking",
         },
         {
             "id": 6,
             "img": sliderImg6,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Target marketer",
         },
         {
             "id": 7,
             "img": sliderImg7,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Designing unique",
         },
         {
             "id": 8,
             "img": sliderImg8,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Brand to buy",
         },
         {
             "id": 9,
             "img": sliderImg9,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Marketing careers",
         },
         {
             "id": 10,
             "img": sliderImg10,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Designing your identity",
         },
         {
             "id": 11,
             "img": sliderImg11,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Stellar design",
         },
         {
             "id": 12,
             "img": sliderImg12,
-            "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
+            "title": "Winger cab advertising",
         },
         {
             "id": 13,
             "img": sliderImg13,
             "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
         },
         {
             "id": 14,
             "img": sliderImg14,
             "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
         },
         {
             "id": 15,
             "img": sliderImg15,
             "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
         },
         {
             "id": 16,
             "img": sliderImg16,
             "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
         },
         {
             "id": 17,
             "img": sliderImg17,
             "title": "Logo Design",
-            "content": "Math is hard but web design is grueling. The good news is, you’ve got experts for the latter. At Brands Design we create website design templates that are relevant to the business and industry you operate in."
         },
 
     ]
@@ -164,7 +147,6 @@ const Portfolio = () => {
                                 <img className="content-image" src={data.img} alt=""/>
                                 <div className="content-details fadeIn-bottom">
                                     <h3 className="content-title">{data.title}</h3>
-                                    <p className="content-text">{data.content}</p>
                                 </div>
                             </div>
                         </div>

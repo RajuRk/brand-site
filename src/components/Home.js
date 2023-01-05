@@ -18,7 +18,7 @@ const Home = () => {
                 <h1>Get a custom logo design by Brands Design.</h1>
               </div>
               <div className='titleBtns'>
-                <Button className='leftBtn'>Talk to us Now</Button>
+                <a href="tel:919585380011"><Button className='leftBtn'>Talk to us Now</Button></a>
                 <Button className='rightBtn'>Get Started</Button>
               </div>
             </div>

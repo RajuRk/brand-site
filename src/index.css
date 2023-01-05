@@ -676,6 +676,11 @@ textarea.form-control{
   width: 50%;
 }
 
+.links ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 600px) {
   header,

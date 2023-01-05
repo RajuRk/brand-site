@@ -3,6 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import  LogoImg from '../img/rankuhigher-logo.png';
 import {FaFacebookF, FaTwitter, FaInstagramSquare, FaLinkedinIn} from "react-icons/fa";
 import {FaCheck} from "react-icons/fa";
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   
@@ -40,14 +41,12 @@ const Footer = () => {
                 </div>
                 <div className='links'>
                     <ul>
-                        <li><FaCheck/> &nbsp;About Us</li>
-                        <li><FaCheck/> &nbsp;Services</li>
-                        <li><FaCheck/> &nbsp;Portfolio</li>
-                        <li><FaCheck/> &nbsp;Client Story</li>
-                        <li><FaCheck/> &nbsp;Terms and Conditions</li>
-                        <li><FaCheck/> &nbsp;Privacy Policy</li>
-                        <li><FaCheck/> &nbsp;FAQ</li>
-                        <li><FaCheck/> &nbsp;Contact</li>
+                        <li><Link to="about" activeClass='active' smooth={true}><FaCheck/> &nbsp;About Us</Link></li>
+                        <li><Link to="features" activeClass='active' smooth={true}><FaCheck/> &nbsp;Services</Link></li>
+                        <li><Link to="portfolio" activeClass='active' smooth={true}><FaCheck/> &nbsp;Portfolio</Link></li>
+                        <li><Link to="customerReview" activeClass='active' smooth={true}><FaCheck/> &nbsp;Testimonials</Link></li>
+                        <li><Link to="clientStory" activeClass='active' smooth={true}><FaCheck/> &nbsp;Client Story</Link></li>
+                        <li><Link to="contact" activeClass='active' smooth={true}><FaCheck/> &nbsp;Contact</Link></li>
                     </ul>
                 </div>
             </div>
